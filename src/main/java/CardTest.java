@@ -7,25 +7,23 @@ public class CardTest{
 
     private Card card;
 
-
-@Before
+    @Before
     public void setUp(){
-    card = new Card(Suit.SPADES, Rank.ACE);
-}
+        card = new Card(Suit.SPADES, Rank.ACE);
+    }
 
-@Test
+    @Test
     public void cardHasSuit(){
-    assertEquals(Suit.SPADES, card.getSuit());
-}
+        assertEquals(Suit.SPADES, card.getSuit());
+    }
 
-@Test
+    @Test
     public void cardHasRank(){
-    assertEquals(Rank.ACE, card.getRank());
-}
+        assertEquals(Rank.ACE, card.getRank());
+    }
 
-@Test
+    @Test
     public void cardHasValue(){
-    assertEquals(1, card.getValue());
-}
-
+        assertEquals(1, card.getValue());
+    }
 }
