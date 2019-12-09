@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab40362-179e-49a1-99bf-7e111f80d9f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CardTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeckTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +53,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.DeckTest.canTakeCard">
-    <configuration name="DeckTest.canGetCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blackjack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="canGetCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeckTest.canTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,13 +93,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeckTest.shuffleDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blackjack" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="shuffleDeck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DeckTest.canTakeCard" />
+        <item itemvalue="JUnit.DeckTest.deckHas52Cards" />
+        <item itemvalue="JUnit.DeckTest.shuffleDeck" />
         <item itemvalue="JUnit.DeckTest.deckIsShuffled" />
         <item itemvalue="JUnit.DeckTest.deckHas52cards" />
-        <item itemvalue="JUnit.DeckTest.deckHas52Cards" />
-        <item itemvalue="JUnit.DeckTest.canGetCard" />
       </list>
     </recent_temporary>
   </component>

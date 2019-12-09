@@ -1,9 +1,9 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 public class DeckTest{
 
@@ -20,7 +20,7 @@ public class DeckTest{
     }
 
     @Test
-    public void deckIsShuffled(){
+    public void canShuffleDeck(){
         Deck deck2 = new Deck();
         assertFalse(deck.equals(deck2));
     }
@@ -28,6 +28,6 @@ public class DeckTest{
     @Test
     public void canTakeCard(){
         Card card = deck.takeCard();
-        assertNotNull(card);
+        Assert.assertNotNull(card);
     }
 }
