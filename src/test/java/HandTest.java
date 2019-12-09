@@ -12,26 +12,30 @@ public class HandTest{
     @Before
     public void setUp(){
         hand = new Hand();
-        card1 = new Card(Suit.DIAMONDS, Rank.FIVE);
-        card2 = new Card(Suit.DIAMONDS, Rank.FOUR);
+        card1 = new Card(Suit.HEARTS, Rank.TWO);
+        card2 = new Card(Suit.CLUBS, Rank.KING);
     }
 
     @Test
-    public void handIsInitiallyZero(){
+    public void initialHandValueZero(){
         assertEquals(0, hand.getHandValue());
     }
-
     @Test
-    public void cardIsAdded(){
-        hand.addCard(card1);
-        hand.addCard(card2);
-        assertEquals(2, hand.getCards().size());
+    public void hasZeroCards(){
+        assertEquals(0, hand.getCards().size());
     }
 
     @Test
-    public void handHasValue(){
-        hand.addCard(card2);
+    public void addCardToHand(){
         hand.addCard(card1);
-        assertEquals(9, hand.getHandValue());
+        hand.addCard(card2);
+        assertEquals(2, hand.getNumOfCards());
+    }
+
+    @Test
+    public void totalhandValue(){
+        hand.addCard(card1);
+        hand.addCard(card2);
+        assertEquals(12, hand.getHandValue());
     }
 }

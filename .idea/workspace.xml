@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab40362-179e-49a1-99bf-7e111f80d9f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +50,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest.handHasValue">
-    <configuration name="DeckTest.canTakeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HandTest">
+    <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="canTakeCard" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="HandTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.valueIsInitiallyZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.hasZeroCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="valueIsInitiallyZero" />
+      <option name="METHOD_NAME" value="hasZeroCards" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HandTest" />
+        <item itemvalue="JUnit.HandTest.hasZeroCards" />
         <item itemvalue="JUnit.HandTest.handHasValue" />
         <item itemvalue="JUnit.HandTest.handHasVallue" />
         <item itemvalue="JUnit.HandTest.cardIsAdded" />
-        <item itemvalue="JUnit.HandTest.valueIsInitiallyZero" />
-        <item itemvalue="JUnit.DeckTest.canTakeCard" />
       </list>
     </recent_temporary>
   </component>
