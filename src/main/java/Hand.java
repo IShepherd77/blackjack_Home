@@ -26,4 +26,9 @@ public class Hand{
         this.cards.add(card);
         this.value += card.getValue();
     }
+
+    public void removeCard(Card card){
+        this.cards.remove(card);
+        this.value -= card.getValue();
+    }
 }
