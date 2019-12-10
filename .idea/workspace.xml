@@ -53,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest.removeCard">
+  <component name="RunManager" selected="JUnit.HandTest">
     <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,41 +63,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.handHasVallue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.canRemoveCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="handHasVallue" />
+      <option name="METHOD_NAME" value="canRemoveCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.handHasValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.canTakeCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="handHasValue" />
+      <option name="METHOD_NAME" value="canTakeCards" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.hasZeroCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.getCardValueAfterRemovingCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="hasZeroCards" />
+      <option name="METHOD_NAME" value="getCardValueAfterRemovingCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandTest.removeCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HandTest.totalCardsValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="removeCard" />
+      <option name="METHOD_NAME" value="totalCardsValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HandTest.removeCard" />
         <item itemvalue="JUnit.HandTest" />
-        <item itemvalue="JUnit.HandTest.hasZeroCards" />
-        <item itemvalue="JUnit.HandTest.handHasValue" />
-        <item itemvalue="JUnit.HandTest.handHasVallue" />
+        <item itemvalue="JUnit.HandTest.getCardValueAfterRemovingCard" />
+        <item itemvalue="JUnit.HandTest.canRemoveCard" />
+        <item itemvalue="JUnit.HandTest.totalCardsValue" />
+        <item itemvalue="JUnit.HandTest.canTakeCards" />
       </list>
     </recent_temporary>
   </component>

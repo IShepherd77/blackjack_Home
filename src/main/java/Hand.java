@@ -31,4 +31,14 @@ public class Hand{
         this.cards.remove(card);
         this.value -= card.getValue();
     }
+
+
+
 }
+
+
+
+
+
+
+
