@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ab40362-179e-49a1-99bf-7e111f80d9f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Coffee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HandTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandTest">
+  <component name="RunManager" selected="Application.Coffee">
+    <configuration name="Coffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Coffee" />
+      <module name="blackjack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blackjack" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,16 +73,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HandTest" />
       <option name="METHOD_NAME" value="canRemoveCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandTest.canTakeCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blackjack" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HandTest" />
-      <option name="METHOD_NAME" value="canTakeCards" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Coffee" />
         <item itemvalue="JUnit.HandTest" />
         <item itemvalue="JUnit.HandTest.getCardValueAfterRemovingCard" />
         <item itemvalue="JUnit.HandTest.canRemoveCard" />
         <item itemvalue="JUnit.HandTest.totalCardsValue" />
-        <item itemvalue="JUnit.HandTest.canTakeCards" />
       </list>
     </recent_temporary>
   </component>
